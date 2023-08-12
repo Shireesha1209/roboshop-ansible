@@ -8,8 +8,8 @@
 
 - name: Install NodeJs
   ansible.builtin.yum:
-    - name: nodejs
-      state: installed
+    name: nodejs
+    state: installed
 
 - name: App Pre-requisites
   ansible.builtin.import_tasks: app-preq.yml
