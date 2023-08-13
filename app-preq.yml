@@ -7,7 +7,7 @@
     path: /app
     state: absent
 
-- name: Crete App directory
+- name: Create App directory
   ansible.builtin.file:
     path: /app
     state: directory
